@@ -1,0 +1,25 @@
+{
+  "name": "quizz",
+  "version": "0.0.0",
+  "description": "A (quite familiar ;) multiplayer quiz game a-la-AirConsole",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel 'src/*.html'",
+    "build": "parcel build 'src/*.html'"
+  },
+  "dependencies": {
+    "nanoid": "3.1.30",
+    "parcel-bundler": "^1.6.1",
+    "peerjs": "1.3.2"
+  },
+  "devDependencies": {
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [
+    "typescript",
+    "javascript"
+  ]
+}
